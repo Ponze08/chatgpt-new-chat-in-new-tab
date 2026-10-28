@@ -1,9 +1,14 @@
 // ==UserScript==
 // @name         ChatGPT - New Chat in New Tab
 // @namespace    https://chatgpt.com/
-// @version      1.2.0
-// @description  Middle-click opens a normal chat; long middle-click opens a temporary chat. Ctrl/Cmd+click opens a normal chat.
+// @version      1.2.1
+// @description  Open new chats in background tabs with middle-click or Ctrl/Cmd+click. Long middle-click tries temporary mode.
 // @author       Ponze
+// @license      MIT
+// @homepageURL  https://github.com/Ponze08/chatgpt-new-chat-in-new-tab
+// @supportURL   https://github.com/Ponze08/chatgpt-new-chat-in-new-tab/issues
+// @updateURL    https://raw.githubusercontent.com/Ponze08/chatgpt-new-chat-in-new-tab/main/chatgpt-new-chat-in-new-tab.user.js
+// @downloadURL  https://raw.githubusercontent.com/Ponze08/chatgpt-new-chat-in-new-tab/main/chatgpt-new-chat-in-new-tab.user.js
 // @match        https://chatgpt.com/*
 // @match        https://chat.openai.com/*
 // @grant        GM_openInTab
